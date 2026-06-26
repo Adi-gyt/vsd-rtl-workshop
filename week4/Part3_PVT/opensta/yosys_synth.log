@@ -1,0 +1,15 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.57+263 (git sha1 da2e021e3, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)
+
+-- Running command `
+  read_verilog rtl/vsdbabysoc.v;  # Use your actual RTL path if different
+  hierarchy -check -top vsdbabysoc;
+  proc; opt; flatten; techmap; opt; memory -nomap;
+  write_verilog synth/vsdbabysoc_synth.v
+' --
+ERROR: File `rtl/vsdbabysoc.v' not found or is a directory

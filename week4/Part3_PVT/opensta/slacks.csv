@@ -1,0 +1,7 @@
+corner,wns,tns
+sky130_fd_sc_hd__ff_100C_1v65,"wns max 0.00","tns max 0.00"
+sky130_fd_sc_hd__ss_n40C_1v28,"wns max 0.00","tns max 0.00"
+sky130_fd_sc_hd__tt_025C_1v80,"wns max 0.00","tns max 0.00"
+timing_ff,"wns max 0.0000","tns max 0.0000"
+timing_ss,"wns max 0.0000","tns max 0.0000"
+timing_tt,"wns max 0.0000","tns max 0.0000"

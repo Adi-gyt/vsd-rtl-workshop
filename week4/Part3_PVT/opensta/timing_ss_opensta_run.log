@@ -1,0 +1,10 @@
+OpenSTA 2.7.0 05b292c379 Copyright (c) 2025, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning: ./vsdbabysoc_synth.cells_final.clean.v line 22, module sky130_fd_sc_hd_clkinv_1 not found. Creating black box for _abc_112_auto_blifparse_cc_397_parse_blif_113.
+Warning: ./vsdbabysoc_synth.cells_final.clean.v line 62, module sky130_fd_sc_hd_dfrtp_1 not found. Creating black box for _auto_ff_cc_266_slice_80.
+Error: vsdbabysoc.sdc, 5 invalid command name "remove_from_collection"
+invalid command name "report_timing"
